@@ -38,7 +38,8 @@ int main()
     p2 = Degree_to_Radian(p2);
 
 
-
+    Result = acos((sin(p1) * sin(p2) + cos(p1) * cos(p2) * cos(delta)))*Radius;
+    
 
 
     return 0;
