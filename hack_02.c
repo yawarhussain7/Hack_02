@@ -8,6 +8,6 @@
 
 int main()
 {
-
+    double lon1,p1,lon2,p2,delta;
     return 0;
 }
