@@ -19,7 +19,8 @@ int main()
     scanf("%lf",&lon2);
     printf("Enter the latitude of Distination in Degree [ -90 to 90 ] : ");
     scanf("%lf",&p2);
-    
+
+    delta = lon1 - lon2;    
 
     return 0;
 }
