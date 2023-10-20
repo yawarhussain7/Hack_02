@@ -31,6 +31,12 @@ int main()
     scanf("%lf",&p2);
 
     delta = lon1 - lon2;    
+
+    printf("Location Distance \n");
+    printf("===================\n");
+    printf("Origin : %lf %lf \n",lon1,p1);
+    printf("Distination : %lf %lf \n",lon2,p2);
+
     //calling Degree_to_Radian Function 
     lon1 = Degree_to_Radian(lon1);
     p1 = Degree_to_Radian(p1);
@@ -39,11 +45,6 @@ int main()
 
 
     Result = acos((sin(p1) * sin(p2) + cos(p1) * cos(p2) * cos(delta)))*Radius;
-
-    printf("Location Distance \n");
-    printf("===================\n");
-    printf("Origin : %lf %lf \n",lon1,p1);
-    printf("Distination : %lf %lf \n",lon2,p2);
     printf("Air distance is %lf kms \n",Result);
 
     return 0;
