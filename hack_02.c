@@ -11,7 +11,8 @@
 //Function to convert Degree into Radian
 int Degree_to_Radian(int num)
 {
- 
+    float PI = 3.1416f;
+    int radian = (num/180)*PI;
 }
 
 int main()
