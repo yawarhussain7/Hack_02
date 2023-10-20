@@ -31,6 +31,12 @@ int main()
     scanf("%lf",&p2);
 
     delta = lon1 - lon2;    
+    //calling Degree_to_Radian Function 
+    lon1 = Degree_to_Radian(lon1);
+    p1 = Degree_to_Radian(p1);
+    lon2 = Degree_to_Radian(lon2);
+    p2 = Degree_to_Radian(p2);
+
 
 
     return 0;
