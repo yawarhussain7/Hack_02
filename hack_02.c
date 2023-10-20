@@ -13,6 +13,8 @@ int Degree_to_Radian(int num)
 {
     float PI = 3.1416f;
     int radian = (num/180)*PI;
+
+    return radian;
 }
 
 int main()
