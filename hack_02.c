@@ -25,7 +25,7 @@ int main()
     scanf("%lf",&lon1);
     printf("Enter the latitude of Origin in Degree [ -90 to 90 ] : ");
     scanf("%lf",&p1);
-    printf("Enter the longitude of Origin in Degree [ -180 to 180 ] : ");
+    printf("Enter the longitude of Distination in Degree [ -180 to 180 ] : ");
     scanf("%lf",&lon2);
     printf("Enter the latitude of Distination in Degree [ -90 to 90 ] : ");
     scanf("%lf",&p2);
@@ -39,8 +39,12 @@ int main()
 
 
     Result = acos((sin(p1) * sin(p2) + cos(p1) * cos(p2) * cos(delta)))*Radius;
-    
 
+    printf("Location Distance \n");
+    printf("===================\n");
+    printf("Origin : %lf %lf \n",lon1,p1);
+    printf("Distination : %lf %lf \n",lon2,p2);
+    printf("Air distance is %lf kms \n",Result);
 
     return 0;
 }
