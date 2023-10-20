@@ -5,8 +5,15 @@
 
 */
 #include<stdio.h>
+
 //globally decleare variable 
- double lon1,p1,lon2,p2,delta;
+ double lon1,p1,lon2,p2,delta,Radius = 62371;
+//Function to convert Degree into Radian
+int Degree_to_Radian(int num)
+{
+ 
+}
+
 int main()
 {
    
@@ -21,6 +28,7 @@ int main()
     scanf("%lf",&p2);
 
     delta = lon1 - lon2;    
+
 
     return 0;
 }
